@@ -1,0 +1,180 @@
+/* RestaurantDashboard.css */
+
+.Restro-container {
+    display: flex;
+    height: 100vh;
+    background: #f3f4f6;
+    padding: 1rem;
+  }
+  
+  .side {
+    width: 25%;
+    background: #fff;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+ .side .search-input {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+  }
+  
+  .restaurant-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .restaurant-item:hover {
+    background: #f0f0f0;
+  }
+  
+  .restaurant-name {
+    font-weight: 600;
+  }
+  
+  .restaurant-city {
+    font-size: 16px;
+    color:  black;
+    font-weight: bold;
+  }
+  
+  .restaurant-id, .restaurant-address {
+    font-size: .8rem;
+    color: #999;
+  }
+  .restaurant-title{
+    margin-bottom: 10px;
+  }
+  .details-panel {
+    width: 75%;
+    padding-left: 1.5rem;
+  }
+  
+  .details-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .details-header {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .details-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .status-active {
+    color: green;
+    font-weight: 600;
+    background-color: rgb(150, 209, 150);
+    padding: 5px 8px;
+    border-radius: 20px;
+  }
+  
+  .btn {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  
+  .btn.danger {
+    color: #e3342f;
+    border-color: #e3342f;
+    float: right;
+  }
+  
+  .analytics-cards {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .analytics-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+   gap: 10px;
+  }
+  
+  .subscription-panel {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .subscription-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: flex-start;
+    width: 70%;
+    padding: 5px;
+  }
+  .subscription-content ul li{
+    color: grey;
+  }
+  
+  .label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: grey;
+  }
+  
+  .status-paid {
+    color: green;
+    background-color: rgb(150, 209, 150);
+    padding: 3px 7px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .plan{
+    padding: 3px 7px;
+    border-radius: 10px;
+    color:rgb(98, 0, 128);
+    background-Color:rgb(234, 180, 250);
+  }
+  .cross-btn{
+    border: 1px solid red;
+    border-radius: 30%;
+    font-size: 12px;
+  }
+  .status-deactivated {
+    color: red;
+    background-color: #ffe6e6;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  .activate-btn {
+    color: green;
+    border: 1px solid green;
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+ 
